@@ -226,14 +226,10 @@ python src/vector_store/faiss_manager.py
 
 ## 📖 Documentation
 
-Comprehensive documentation is available in the `docs/` directory:
+Comprehensive documentation is available:
 
-- **[ARCHITECTURE.md](docs/ARCHITECTURE.md)** - System architecture and design
-- **[RAG_WORKFLOW.md](docs/RAG_WORKFLOW.md)** - RAG pipeline details
-- **[IBM_GRANITE_INTEGRATION.md](docs/IBM_GRANITE_INTEGRATION.md)** - Granite integration guide
-- **[GRANITE_FEASIBILITY_ANALYSIS.md](docs/GRANITE_FEASIBILITY_ANALYSIS.md)** - Hardware requirements
-- **[PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md)** - Detailed folder structure
-- **[REQUIREMENTS_SPECIFICATION.md](docs/REQUIREMENTS_SPECIFICATION.md)** - Dependencies guide
+- **[ARCHITECTURE.md](ARCHITECTURE.md)** - Complete system architecture and design
+- **[INTERNSHIP_SUBMISSION.md](INTERNSHIP_SUBMISSION.md)** - Full project documentation for 1M1B internship
 
 ---
 
