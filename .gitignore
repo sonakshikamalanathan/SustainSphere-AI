@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment Variables
+.env
+.env.local
+
+# Data Files (exclude large files, keep sample data)
+data/raw/*.pdf
+# Keep sample sustainability data files
+# data/raw/*.txt
+data/raw/*.docx
+data/processed/
+data/vector_store/*.index
+data/vector_store/*.pkl
+
+# Models
+models/*.bin
+models/*.safetensors
+models/*.gguf
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Internal/Working Documents (not for GitHub)
+NEXT_STEPS.md
+INTERNSHIP_EVALUATION_REVIEW.md
+GITHUB_PREP_GUIDE.md
+GIT_PUSH_COMMANDS.md
+FREE_IMPLEMENTATION_GUIDE.md
+QUICK_START.md
+PROJECT_IDEAS_ANALYSIS.md
+IBM_GRANITE_INTEGRATION.md
+GRANITE_FEASIBILITY_ANALYSIS.md
+PROJECT_STRUCTURE.md
+REQUIREMENTS_SPECIFICATION.md
+
+# Made with Bob

@@ -1,0 +1,21 @@
+{
+  "build_date": "2026-06-17T17:37:59.775584",
+  "duration_seconds": 48.531417,
+  "num_documents": 3,
+  "num_chunks": 58,
+  "chunk_stats": {
+    "total_chunks": 58,
+    "avg_chunk_size": 366.2413793103448,
+    "min_chunk_size": 222,
+    "max_chunk_size": 498,
+    "total_characters": 21242
+  },
+  "index_stats": {
+    "total_documents": 58,
+    "index_type": "Flat",
+    "embedding_dimension": 384,
+    "is_trained": true,
+    "total_vectors": 58
+  },
+  "data_directory": "C:\\Users\\tejes\\Desktop\\SustainSphere-AI\\data\\raw"
+}

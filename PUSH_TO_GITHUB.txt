@@ -1,0 +1,74 @@
+========================================
+PUSH TO GITHUB - SIMPLE COMMANDS
+========================================
+
+Repository: https://github.com/sonakshikamalanathan/SustainSphere-AI
+
+========================================
+STEP 1: Open NEW Terminal (not Streamlit)
+========================================
+
+cd c:\Users\tejes\Desktop\SustainSphere-AI
+
+========================================
+STEP 2: Configure Git (First Time Only)
+========================================
+
+git config --global user.name "Sonakshi Kamalanathan"
+git config --global user.email "sonakshikamalanathan@gmail.com"
+
+========================================
+STEP 3: Initialize and Add Files
+========================================
+
+git init
+git add .
+git status
+
+IMPORTANT: Check that .env is NOT in the list!
+
+========================================
+STEP 4: Commit and Push
+========================================
+
+git commit -m "Initial commit: SustainSphere AI"
+git remote add origin https://github.com/sonakshikamalanathan/SustainSphere-AI.git
+git branch -M main
+git push -u origin main
+
+========================================
+AUTHENTICATION
+========================================
+
+When prompted:
+- Username: sonakshikamalanathan
+- Password: Use Personal Access Token (not password)
+
+Get token: https://github.com/settings/tokens
+- Click "Generate new token (classic)"
+- Check "repo" scope
+- Copy and use as password
+
+========================================
+WHAT WILL BE PUSHED
+========================================
+
+✅ Source code (src/, app/, scripts/)
+✅ README.md
+✅ ARCHITECTURE.md
+✅ INTERNSHIP_SUBMISSION.md
+✅ LICENSE
+✅ requirements.txt
+✅ .gitignore
+✅ Sample data files
+
+❌ NOT PUSHED (excluded):
+- .env (your API key)
+- Internal docs (NEXT_STEPS, EVALUATION, etc.)
+- __pycache__, venv/
+
+========================================
+DONE!
+========================================
+
+Your repo: https://github.com/sonakshikamalanathan/SustainSphere-AI
